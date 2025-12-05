@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>IXL Assistant Settings</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 12px; }
+      label { display: flex; align-items: center; gap: 8px; }
+      .note { margin-top: 10px; color: #555; font-size: 0.9em }
+    </style>
+  </head>
+  <body>
+    <h3>IXL Assistant</h3>
+    <label>
+      <input type="checkbox" id="ixlEnabled" />
+      Enable IXL Auto Answer
+    </label>
+    <label style="margin-top:8px">
+      <input type="checkbox" id="ixlDebug" />
+      Enable debug logs
+    </label>
+    <div class="note">When enabled, a floating "Start IXL Auto" button will appear on IXL pages.</div>
+    <script src="settings.js"></script>
+  </body>
+</html>
